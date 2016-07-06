@@ -8,7 +8,7 @@ var spotify = require('spotify');
 var argOne = process.argv[2];
 var argTwo = process.argv[3];
 
-function switchFunction() {
+function switchFunction() {  // switch is like a fancy if statement. 
 	switch(argOne){
 	case 'my-tweets': myTweets();
 	break;
@@ -121,56 +121,3 @@ function doWhatItSays() {
 			switchFunction();
 
 
-/////////////////// my first unsuccessful attempt is below ///////////////////////
-	
-  //           var user = {screen_name: userInput[1]};
-  //           	client.get("statuses/user_timeline", user, function(error, tweets, response) {
-  //               if (!err && response.statusCode == 200) {
-  //               	console.log("Latest tweets from" + user);
-  //               	for (var i = 0; i < tweets.length; i++) {
-  //                       console.log("Tweet #" + (i + 1) + ": " + tweets[i].text +
-  //                           "\n -Tweeted on: " + tweets[i].created_at + "\n");
-  //                   }
-  //                   console.log("=========================================================================================" +
-  //                       "\n"
-  //                   );
-  //               } else {
-  //                   console.log(err);
-  //               }
-  //           });
-  //       }
-
-  //       if(userInput[0] == "spotify-this-song") {
-  //       	spotify.search({type: 'track', query: queryInput, count: 1}, function(error, data) {
-		// 		if(!error) {
-		// 			console.log('Error:' + error);
-  //       		for (var i = 0; i < data.tracks.items.length; i++) {
-  //                       console.log("Artist:" + data.tracks.items[0].artists[0].name);
-		// 				console.log("Song Name:" + data.tracks.items[0].name);
-		// 				console.log("Album Name:" + data.tracks.items[i].album.name);
-		// 				console.log("Spotify Song Preview:" + data.tracks.items[0].external.url.spotify);
-		// 				fs.appendFile('random.txt', "Artist:" + data.tracks.items[0].artists[0].name + "\n" + "Song Name:" + data.tracks.items[0].name + "\n" + "Spotify Preview:" + data.tracks.items[0].external.url.spotify + "\n");
-  //       		} 
-  //      		} else {
-  //      			console.log(error);
-  //      		}
-  //      	}
-
- //     	if(userInput[0] == "movie-this") {
- //     		function movieThis() {
-
-	// 			var movieInfo = input.movieInfo;
-	
-	// 			request('http://www.omdbapi.com/?t=" + movieInfo + "&tomatoes=true" + &y=&plot=short&r=json', function (error, response, body) {
-	// 				if (!error && response.statusCode == 200) {
-	// 					console.log(JSON.parse(body) ["Title:" + movieInfo.Title + "\n" + Year: + movieInfo.Year + "\n" + "IMBD Rating:" + movieInfo.imbdRating + "\n" + "Country:" + movieInfo.Country + "\n" + "Language:" + movieInfo.Language + "\n" + "Plot:" + movieInfo.Plot + "\n" +  "Actors:" + moviInfo.Actors + "\n"]);
-	// 				} else {
-	// 					console.log(error);
-	// 			};
-	// 		});
-	// 	}
-
- //     }
-
-
- // 

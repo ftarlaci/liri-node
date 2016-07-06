@@ -2,3 +2,7 @@ spotify-this-song,"I Want it That Way"Artist:Adele
 Song Name:Hello
 Album NameHello
 Spotify Preview Link:https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4
+Artist:Twenty One Pilots
+Song Name:Ride
+Album NameBlurryface
+Spotify Preview Link:https://p.scdn.co/mp3-preview/26fc2318d6ebad09ae7aed7adfce2b28413cea7e
